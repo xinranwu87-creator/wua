@@ -1,0 +1,108 @@
+<!-- Regenesis 生育评分系统 - 网页端低保真线框草图 -->
+<html>
+  <head>
+    <title>Regenesis | 生育评分系统</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #f2f5f3;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #3A705E;
+        color: white;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav {
+        display: flex;
+        gap: 1rem;
+      }
+      section {
+        padding: 2rem;
+        border-bottom: 1px solid #ccc;
+      }
+      .section-title {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      .card {
+        background: white;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      }
+      footer {
+        background: #eee;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><strong>Regenesis</strong></div>
+      <nav>
+        <a href="#region">地区生态</a>
+        <a href="#score">评分情况</a>
+        <a href="#quota">生育配额</a>
+        <a href="#advice">优化建议</a>
+      </nav>
+    </header>
+
+    <section id="region">
+      <div class="section-title">🌍 当前地区生态概况</div>
+      <div class="grid">
+        <div class="card">[地图 + 地区切换]</div>
+        <div class="card">[生态承载力图表 + 赤字/盈余]</div>
+      </div>
+    </section>
+
+    <section id="score">
+      <div class="section-title">🧍 用户生态评分情况</div>
+      <div class="grid">
+        <div class="card">[生态足迹评分卡（雷达图）]</div>
+        <div class="card">[得分详情 + 是否获得配额]</div>
+      </div>
+    </section>
+
+    <section id="quota">
+      <div class="section-title">👶 生育配额与配对情况</div>
+      <div class="grid">
+        <div class="card">[配额动画 + 分配说明]</div>
+        <div class="card">[配对信息 + 兼容度图表]</div>
+      </div>
+    </section>
+
+    <section id="advice">
+      <div class="section-title">🌱 行为优化建议</div>
+      <div class="grid">
+        <div class="card">[影响足迹因素分析]</div>
+        <div class="card">[个性化绿色建议 + 提升模拟]</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">🏆 社区与生态榜单</div>
+      <div class="grid">
+        <div class="card">[可视化地图 + 热力图]</div>
+        <div class="card">[社区排名 + 家庭展示]</div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Regenesis. 数据来源：Global Footprint Network (GFN)
+    </footer>
+  </body>
+</html>
